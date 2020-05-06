@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[amazon_1  ::  RunScript :: Running  script: (before amazon_ts) :: Script  : before amazon_ts Called]]>
+    </line>
+    <line>
+      <![CDATA[amazon_1---java.lang.ClassNotFoundException: com.automatics.packages.testScripts.before amazon_ts---RunScript :: Running  script: (before amazon_ts)]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: set_AndroidPreference]]>
+    </line>
+    <line>
+      <![CDATA[
+Android Preference :App_Package Set to : com.amazon.mShop.android.shopping -- Done]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: set_AndroidPreference]]>
+    </line>
+    <line>
+      <![CDATA[
+Android Preference :App_Activity Set to : com.amazon.mShop.home.HomeActivity -- Done]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: set_AndroidPreference]]>
+    </line>
+    <line>
+      <![CDATA[
+Android Preference :App_WaitActivity Set to : com.amazon.mShop.home.HomeActivity -- Done]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (10)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: launchApp]]>
+    </line>
+    <line>
+      <![CDATA[App launched :: ]]>
+    </line>
+    <line>
+      <![CDATA[                     ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::click on Object : amazon_om.Amazon_Login_page__username -> ( By.all({By.xpath: //android.widget.Button[@text='Already a customer? Sign in']}) ) :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (15)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: native_HideKeyboard :: Hide Keyboard in Native App:: Performed]]>
+    </line>
+    <line>
+      <![CDATA[                     ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::type in Object : amazon_om.Amazon_Login_page__Mobile_or_email -> ( By.all({By.className: android.widget.EditText}) ) , Value = avesh_mohammad@yahoo.com :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::click on Object : amazon_om.Amazon_Login_page__cntinu -> ( By.all({By.xpath: //*[@text='Continue']}) ) :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: native_HideKeyboard :: Hide Keyboard in Native App:: Performed]]>
+    </line>
+    <line>
+      <![CDATA[                     ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::type in Object : amazon_om.Amazon_Login_page__password -> ( By.all({By.xpath: //*[@resource-id='ap_password']}) ) , Value = Arbiyabanu@786
+ :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::click on Object : amazon_om.Amazon_Login_page__login -> ( By.all({By.xpath: //*[@resource-id='signInSubmit']}) ) :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::click on Object : amazon_om.Amazon_home_page__Search_bar -> ( By.all({By.id: com.amazon.mShop.android.shopping:id/rs_search_src_text}) ) :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: screen rotated]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: screen rotated]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: Scrolled and clicked]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: Scrolled and clicked]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::click on Object : amazon_om.almonds1kg__Open_cart -> ( By.all({By.id: action_bar_cart_image}) ) :: Performed]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[STEP :: Found element]]>
+    </line>
+    <line>
+      <![CDATA[prameter Value :: Almonds]]>
+    </line>
+    <line>
+      <![CDATA[Step Status ::false]]>
+    </line>
+    <line>
+      <![CDATA[SCREENSHOT :: <a href='D:\independent framework\automatics1.4\com.automatics.packages\com\automatics\packages\screenshots\amazon_1_20200505_153849.png'> <img_src='D:\independent framework\automatics1.4\com.automatics.packages\com\automatics\packages\screenshots\amazon_1_20200505_153849.png' height='100', width='100' />image_link</a>]]>
+    </line>
+    <line>
+      <![CDATA[        ]]>
+    </line>
+  </reporter-output>
+  <suite name="amazon_ts" duration-ms="279582" started-at="2020-05-05T10:04:11Z" finished-at="2020-05-05T10:08:50Z">
+    <groups>
+    </groups>
+    <test name="amazon_1" duration-ms="279582" started-at="2020-05-05T10:04:11Z" finished-at="2020-05-05T10:08:50Z">
+      <class name="com.automatics.packages.testScripts.amazon">
+        <test-method status="PASS" signature="preSuite(org.testng.ITestContext)[pri:0, instance:com.automatics.packages.testScripts.amazon@36d585c]" name="preSuite" is-config="true" duration-ms="293" started-at="2020-05-05T10:04:11Z" finished-at="2020-05-05T10:04:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3aa9c7cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[amazon_1  ::  RunScript :: Running  script: (before amazon_ts) :: Script  : before amazon_ts Called]]>
+            </line>
+            <line>
+              <![CDATA[amazon_1---java.lang.ClassNotFoundException: com.automatics.packages.testScripts.before amazon_ts---RunScript :: Running  script: (before amazon_ts)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preSuite -->
+        <test-method status="PASS" signature="test(org.testng.ITestContext)[pri:0, instance:com.automatics.packages.testScripts.amazon@36d585c]" name="test" duration-ms="278022" started-at="2020-05-05T10:04:11Z" finished-at="2020-05-05T10:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3aa9c7cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: set_AndroidPreference]]>
+            </line>
+            <line>
+              <![CDATA[
+Android Preference :App_Package Set to : com.amazon.mShop.android.shopping -- Done]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: set_AndroidPreference]]>
+            </line>
+            <line>
+              <![CDATA[
+Android Preference :App_Activity Set to : com.amazon.mShop.home.HomeActivity -- Done]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: set_AndroidPreference]]>
+            </line>
+            <line>
+              <![CDATA[
+Android Preference :App_WaitActivity Set to : com.amazon.mShop.home.HomeActivity -- Done]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (10)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: launchApp]]>
+            </line>
+            <line>
+              <![CDATA[App launched :: ]]>
+            </line>
+            <line>
+              <![CDATA[                     ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::click on Object : amazon_om.Amazon_Login_page__username -> ( By.all({By.xpath: //android.widget.Button[@text='Already a customer? Sign in']}) ) :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (15)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: native_HideKeyboard :: Hide Keyboard in Native App:: Performed]]>
+            </line>
+            <line>
+              <![CDATA[                     ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::type in Object : amazon_om.Amazon_Login_page__Mobile_or_email -> ( By.all({By.className: android.widget.EditText}) ) , Value = avesh_mohammad@yahoo.com :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::click on Object : amazon_om.Amazon_Login_page__cntinu -> ( By.all({By.xpath: //*[@text='Continue']}) ) :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: native_HideKeyboard :: Hide Keyboard in Native App:: Performed]]>
+            </line>
+            <line>
+              <![CDATA[                     ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::type in Object : amazon_om.Amazon_Login_page__password -> ( By.all({By.xpath: //*[@resource-id='ap_password']}) ) , Value = Arbiyabanu@786
+ :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::click on Object : amazon_om.Amazon_Login_page__login -> ( By.all({By.xpath: //*[@resource-id='signInSubmit']}) ) :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::click on Object : amazon_om.Amazon_home_page__Search_bar -> ( By.all({By.id: com.amazon.mShop.android.shopping:id/rs_search_src_text}) ) :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: screen rotated]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: screen rotated]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: Scrolled and clicked]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: Scrolled and clicked]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::click on Object : amazon_om.almonds1kg__Open_cart -> ( By.all({By.id: action_bar_cart_image}) ) :: Performed]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Step ::wait :: Waiting for: (5)seconds]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[STEP :: Found element]]>
+            </line>
+            <line>
+              <![CDATA[prameter Value :: Almonds]]>
+            </line>
+            <line>
+              <![CDATA[Step Status ::false]]>
+            </line>
+            <line>
+              <![CDATA[SCREENSHOT :: <a href='D:\independent framework\automatics1.4\com.automatics.packages\com\automatics\packages\screenshots\amazon_1_20200505_153849.png'> <img_src='D:\independent framework\automatics1.4\com.automatics.packages\com\automatics\packages\screenshots\amazon_1_20200505_153849.png' height='100', width='100' />image_link</a>]]>
+            </line>
+            <line>
+              <![CDATA[        ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforetest(org.testng.ITestContext)[pri:0, instance:com.automatics.packages.testScripts.amazon@36d585c]" name="beforetest" is-config="true" duration-ms="0" started-at="2020-05-05T10:04:11Z" finished-at="2020-05-05T10:04:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3aa9c7cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="aftertest(org.testng.ITestContext)[pri:0, instance:com.automatics.packages.testScripts.amazon@36d585c]" name="aftertest" is-config="true" duration-ms="1504" started-at="2020-05-05T10:08:49Z" finished-at="2020-05-05T10:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3aa9c7cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.automatics.packages.testScripts.amazon -->
+    </test> <!-- amazon_1 -->
+  </suite> <!-- amazon_ts -->
+</testng-results>

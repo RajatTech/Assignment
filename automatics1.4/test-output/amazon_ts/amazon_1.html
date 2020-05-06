@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  amazon_1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>amazon_1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 05 15:34:11 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>279 seconds (279582 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automatics.packages.testScripts.amazon.test()'><b>test</b><br>Test class: com.automatics.packages.testScripts.amazon<br>Parameters: org.testng.TestRunner@3aa9c7cf<br/>
+<a href="#Output-1110001697" onClick='toggleBox("Output-1110001697", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1110001697" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1110001697">
+--------------------------------------------------<br/>
+STEP :: set_AndroidPreference<br/>
+
+Android Preference :App_Package Set to : com.amazon.mShop.android.shopping -- Done<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: set_AndroidPreference<br/>
+
+Android Preference :App_Activity Set to : com.amazon.mShop.home.HomeActivity -- Done<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: set_AndroidPreference<br/>
+
+Android Preference :App_WaitActivity Set to : com.amazon.mShop.home.HomeActivity -- Done<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (10)seconds<br/>
+        <br/>
+----------------------------------------------<br/>
+STEP :: launchApp<br/>
+App launched :: <br/>
+                     <br/>
+--------------------------------------------------<br/>
+Step ::click on Object : amazon_om.Amazon_Login_page__username -> ( By.all({By.xpath: //android.widget.Button[@text='Already a customer? Sign in']}) ) :: Performed<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (15)seconds<br/>
+        <br/>
+----------------------------------------------<br/>
+STEP :: native_HideKeyboard :: Hide Keyboard in Native App:: Performed<br/>
+                     <br/>
+--------------------------------------------------<br/>
+Step ::type in Object : amazon_om.Amazon_Login_page__Mobile_or_email -> ( By.all({By.className: android.widget.EditText}) ) , Value = avesh_mohammad@yahoo.com :: Performed<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (5)seconds<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::click on Object : amazon_om.Amazon_Login_page__cntinu -> ( By.all({By.xpath: //*[@text='Continue']}) ) :: Performed<br/>
+        <br/>
+----------------------------------------------<br/>
+STEP :: native_HideKeyboard :: Hide Keyboard in Native App:: Performed<br/>
+                     <br/>
+--------------------------------------------------<br/>
+Step ::type in Object : amazon_om.Amazon_Login_page__password -> ( By.all({By.xpath: //*[@resource-id='ap_password']}) ) , Value = Arbiyabanu@786
+ :: Performed<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::click on Object : amazon_om.Amazon_Login_page__login -> ( By.all({By.xpath: //*[@resource-id='signInSubmit']}) ) :: Performed<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::click on Object : amazon_om.Amazon_home_page__Search_bar -> ( By.all({By.id: com.amazon.mShop.android.shopping:id/rs_search_src_text}) ) :: Performed<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (5)seconds<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (5)seconds<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: screen rotated<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (5)seconds<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: screen rotated<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: Scrolled and clicked<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (5)seconds<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: Scrolled and clicked<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::click on Object : amazon_om.almonds1kg__Open_cart -> ( By.all({By.id: action_bar_cart_image}) ) :: Performed<br/>
+        <br/>
+--------------------------------------------------<br/>
+Step ::wait :: Waiting for: (5)seconds<br/>
+        <br/>
+--------------------------------------------------<br/>
+STEP :: Found element<br/>
+prameter Value :: Almonds<br/>
+Step Status ::false<br/>
+SCREENSHOT :: <a href='D:\independent framework\automatics1.4\com.automatics.packages\com\automatics\packages\screenshots\amazon_1_20200505_153849.png'> <img_src='D:\independent framework\automatics1.4\com.automatics.packages\com\automatics\packages\screenshots\amazon_1_20200505_153849.png' height='100', width='100' />image_link</a><br/>
+        <br/>
+</div>
+</td>
+<td></td>
+<td>278</td>
+<td>com.automatics.packages.testScripts.amazon@36d585c</td></tr>
+</table><p>
+</body>
+</html>

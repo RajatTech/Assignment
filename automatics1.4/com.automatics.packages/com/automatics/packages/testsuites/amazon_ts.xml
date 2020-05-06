@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" verbose="1" name="amazon_ts">
+
+	<test name="amazon_assignment_1">
+		<parameter name="testName" value="amazon_assignment"/>
+		<parameter name="exePlatform" value="c93fcc08"/>
+		<parameter name="exeType" value="ANDROID_HYBRID"/>
+		<parameter name="runOn" value="localhost"/>
+		<classes>
+			<class name="com.automatics.packages.testScripts.amazon_assignment"/>
+		</classes>
+	</test>
+</suite>

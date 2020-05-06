@@ -1,0 +1,16 @@
+
+2020-05-05 20-18-15::com.automatics.packages.library.SeleniumGrid.gridStartHub
+-----Selenium Grid Hub Response----
+Found Already Started - http://localhost:4444/wd/status
+
+2020-05-05 20-18-15::com.automatics.packages.library.SeleniumGrid.gridStartFirefox
+-----Firefox Grid Response----
+Found Already Started - http://localhost:5555/wd/hub/status
+
+2020-05-05 20-18-16::com.automatics.packages.library.SeleniumGrid.gridStartChrome
+-----Chrome Grid Response----
+Found Already Started - http://localhost:5559/wd/hub/status
+
+2020-05-05 20-18-16::com.automatics.packages.library.SeleniumGrid.gridStartIE
+-----IE Grid Response----
+Found Already Started - http://localhost:5558/wd/hub/status

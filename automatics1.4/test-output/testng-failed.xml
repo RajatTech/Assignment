@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [amazon_ts]" parallel="tests">
+  <test thread-count="1" name="amazon_1(failed)" parallel="tests">
+    <parameter name="runOn" value="localhost"/>
+    <parameter name="exePlatform" value="c93fcc08"/>
+    <parameter name="exeType" value="ANDROID_HYBRID"/>
+    <parameter name="testName" value="amazon"/>
+    <classes>
+      <class name="com.automatics.packages.testScripts.amazon">
+        <methods>
+          <include name="preSuite"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automatics.packages.testScripts.amazon -->
+    </classes>
+  </test> <!-- amazon_1(failed) -->
+</suite> <!-- Failed suite [amazon_ts] -->

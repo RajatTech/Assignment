@@ -1,0 +1,1 @@
+"<NODEEXE>" "<APPIUMJS>" -p <PORT> -bp <BOOTPORT> -U <DEVICEID> --chromedriver-port <CDRIVER>
